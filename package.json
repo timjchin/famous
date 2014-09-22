@@ -23,6 +23,7 @@
   "homepage": "https://famo.us",
   "devDependencies": {
     "eslint": "^0.8.2",
+    "famous-dist-generator": "^0.1.0",
     "jscs": "^1.5.9"
   },
   "dependencies": {
