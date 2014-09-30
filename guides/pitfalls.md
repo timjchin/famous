@@ -12,7 +12,7 @@ In short, when you need something to behave or animate differently, it should be
 
 There are a few reasons this could happen.
 
-- The order in which Surfaces are created matters, in regards to browser representation.  Since Famo.us creates the DOM elements in the order that your Javascript runs, the default behavior is similar to how the browser parses standard HTML.  Surfaces that are created first render behind newer Surfaces because their associated DOM element is created first.
+- The order in which Surfaces are instantiated matters, in regards to browser representation.  Since Famo.us creates the DOM elements in the order that your Javascript runs, the default behavior is similar to how the browser parses standard HTML.  Surfaces that are instantiated first render behind newer Surfaces because their associated DOM element is created first.
 
 - Famo.us translations could be affecting your Surface's position.  Check your code to see if you have any Modifiers affecting your Surface's translation in z space.
 
